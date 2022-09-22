@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Policy
+metadata:
+  name: policy-1
+  labels:
+    owner: ahmed
+spec:
+  parameters:
+    replica_count: 1

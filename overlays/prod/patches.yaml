@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Policy
+metadata:
+  name: policy-1
+spec:
+  parameters:
+    replica_count: 3
